@@ -3,14 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.22310.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{288B726A-FBB8-4BC2-967E-F7506B2997FF}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Dargon.NuGetPrefetch.AspNet", "src\Dargon.NuGetPrefetch_AspNet\Dargon.NuGetPrefetch.AspNet.kproj", "{B4025A0A-FF42-4198-8096-77A3661D0BA7}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{513B6182-3850-4DF5-81D5-F2F30EDFC66A}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Dargon.NuGetPrefetch.AspNet", "Dargon.NuGetPrefetch.AspNet\Dargon.NuGetPrefetch.AspNet.kproj", "{18BB85ED-0835-4173-80FE-0DFFAC2E0B0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,15 +11,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B4025A0A-FF42-4198-8096-77A3661D0BA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B4025A0A-FF42-4198-8096-77A3661D0BA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B4025A0A-FF42-4198-8096-77A3661D0BA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B4025A0A-FF42-4198-8096-77A3661D0BA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18BB85ED-0835-4173-80FE-0DFFAC2E0B0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18BB85ED-0835-4173-80FE-0DFFAC2E0B0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18BB85ED-0835-4173-80FE-0DFFAC2E0B0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18BB85ED-0835-4173-80FE-0DFFAC2E0B0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{B4025A0A-FF42-4198-8096-77A3661D0BA7} = {288B726A-FBB8-4BC2-967E-F7506B2997FF}
 	EndGlobalSection
 EndGlobal
