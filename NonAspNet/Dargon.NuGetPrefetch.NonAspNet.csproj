@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{23C5491A-75EF-46A6-9F81-3B65A62BC4EF}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Dargon.NuGetPrefetch</RootNamespace>
+    <AssemblyName>Dargon.NuGetPrefetch</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Castle.Core">
+      <HintPath>packages\Dargon.TestUtilities.0.0.0\lib\net45\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Dargon.SystemState.Api">
+      <HintPath>packages\Dargon.SystemState.Api.0.0.0\lib\net45\Dargon.SystemState.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="Dargon.TestUtilities">
+      <HintPath>packages\Dargon.TestUtilities.0.0.0\lib\net45\Dargon.TestUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="ImpromptuInterface">
+      <HintPath>packages\libwarty.proxies-impl.0.0.13\lib\net45\ImpromptuInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="libdargon.filesystem-api">
+      <HintPath>packages\libdargon.filesystem-impl.0.0.1\lib\net45\libdargon.filesystem-api.dll</HintPath>
+    </Reference>
+    <Reference Include="libdargon.filesystem-impl">
+      <HintPath>packages\libdargon.filesystem-impl.0.0.1\lib\net45\libdargon.filesystem-impl.dll</HintPath>
+    </Reference>
+    <Reference Include="libdargon.hydar-api">
+      <HintPath>packages\libdargon.hydar-local-impl.0.0.0\lib\net45\libdargon.hydar-api.dll</HintPath>
+    </Reference>
+    <Reference Include="libdargon.hydar-local-impl">
+      <HintPath>packages\libdargon.hydar-local-impl.0.0.0\lib\net45\libdargon.hydar-local-impl.dll</HintPath>
+    </Reference>
+    <Reference Include="libdargon.management-api">
+      <HintPath>packages\libdargon.management-impl.0.0.0\lib\net45\libdargon.management-api.dll</HintPath>
+    </Reference>
+    <Reference Include="libdargon.management-impl">
+      <HintPath>packages\libdargon.management-impl.0.0.0\lib\net45\libdargon.management-impl.dll</HintPath>
+    </Reference>
+    <Reference Include="libdargon.utilities">
+      <HintPath>packages\librads.0.0.3\lib\net45\libdargon.utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="libdnode">
+      <HintPath>packages\librads.0.0.3\lib\net45\libdnode.dll</HintPath>
+    </Reference>
+    <Reference Include="libdpo">
+      <HintPath>packages\Dargon.TestUtilities.0.0.0\lib\net45\libdpo.dll</HintPath>
+    </Reference>
+    <Reference Include="libdsp">
+      <HintPath>packages\libdsp.0.0.4\lib\net45\libdsp.dll</HintPath>
+    </Reference>
+    <Reference Include="librads">
+      <HintPath>packages\librads.0.0.3\lib\net45\librads.dll</HintPath>
+    </Reference>
+    <Reference Include="libwarty">
+      <HintPath>packages\Dargon.TestUtilities.0.0.0\lib\net45\libwarty.dll</HintPath>
+    </Reference>
+    <Reference Include="libwarty.proxies-api">
+      <HintPath>packages\librads.0.0.3\lib\net45\libwarty.proxies-api.dll</HintPath>
+    </Reference>
+    <Reference Include="libwarty.proxies-impl">
+      <HintPath>packages\libwarty.proxies-impl.0.0.13\lib\net45\libwarty.proxies-impl.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog">
+      <HintPath>packages\librads.0.0.3\lib\net45\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="NMockito">
+      <HintPath>packages\Dargon.TestUtilities.0.0.0\lib\net45\NMockito.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="xunit">
+      <HintPath>packages\Dargon.TestUtilities.0.0.0\lib\net45\xunit.dll</HintPath>
+    </Reference>
+    <Reference Include="zlib.net">
+      <HintPath>packages\librads.0.0.3\lib\net45\zlib.net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
