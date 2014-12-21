@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.22310.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Dargon.NuGetPrefetch.AspNet", "Dargon.NuGetPrefetch.AspNet\Dargon.NuGetPrefetch.AspNet.kproj", "{18BB85ED-0835-4173-80FE-0DFFAC2E0B0A}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Dargon.NuGetPrefetch.AspNet", "Dargon.NuGetPrefetch.AspNet.kproj", "{18BB85ED-0835-4173-80FE-0DFFAC2E0B0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
