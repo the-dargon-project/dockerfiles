@@ -8,7 +8,7 @@ WORKDIR /app/AspNet
 RUN kpm restore
 
 WORKDIR /app/NonAspNet
-RUN kpm restore
+RUN nuget restore
 
 WORKDIR /app/src/TestWebApplication
 
