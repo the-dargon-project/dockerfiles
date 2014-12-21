@@ -9,9 +9,3 @@ RUN kpm restore
 
 WORKDIR /app/NonAspNet
 RUN nuget restore
-
-WORKDIR /app/src/TestWebApplication
-
-EXPOSE 5004
-
-ENTRYPOINT ["k", "kestrel"]
